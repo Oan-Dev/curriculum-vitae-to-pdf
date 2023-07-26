@@ -30,6 +30,7 @@ main{
 .identity ul li {
 	list-style: none;
 }
+
 .identity, .title, .presentation p, .formation h2, .ancient-life h2{
 	border-radius: 25px 25px 0 0 ;
 }
@@ -178,6 +179,9 @@ h1, .formation > h2, .ancient-life > h2, .job {
 	.identity{
 		height: 100vh;
 		padding-inline:  1rem;
+	}
+	.mail a, .mail span {
+		font-size: 14px;
 	}
 
 	.formation > h2, .ancient-life > h2{
