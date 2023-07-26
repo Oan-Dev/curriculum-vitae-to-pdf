@@ -181,7 +181,7 @@ h1, .formation > h2, .ancient-life > h2, .job {
 		padding-inline:  1rem;
 	}
 	.mail a, .mail span {
-		font-size: 14px;
+		font-size: 14px !important;
 	}
 
 	.formation > h2, .ancient-life > h2{
