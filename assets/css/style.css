@@ -17,7 +17,7 @@ main{
 	display: flex;
 	justify-content: center;
 }
-
+/* aside */
 .identity {
 	height: 150vh;
 	width: 300px;
@@ -34,11 +34,6 @@ main{
 .identity, .title, .presentation p, .formation h2, .ancient-life h2{
 	border-radius: 25px 25px 0 0 ;
 }
-
-.school, .pro {
-	box-shadow: 8px 8px 2px #664c46;
-}
-
 .photo, 
 .photo img {
 	height: 200px;
@@ -51,12 +46,48 @@ main{
 	border-radius: 50%;
 }
 
-.contact, .skills, .language, .presentation, .formation, .ancient-life, .school, .pro{
-	padding: 2rem;
-}
 .contact h2, .skills h2, .language h2,
 .contact ul li, .contact ul li a, .skills ul li, .language ul li {
 	margin-bottom: 1rem;
+}
+/** padding factorizing */
+.contact, .skills, .language, .presentation, .formation, .ancient-life, .school, .pro{
+	padding: 2rem;
+}
+
+h1, .formation > h2, .ancient-life > h2, .job {
+	text-align: center;
+	font-size: 2rem;
+}
+/** Part of resume */
+.cv {
+	max-width: 1000px;
+	margin-left: 2rem;
+}
+/** part of Presentation */
+.title {
+	background-color: #664c46;
+	box-shadow: 8px 8px 2px #b1907f;
+	padding: 1rem;
+}
+.title h1, .title h2, .stage {
+	color: #fff;
+}
+
+.stage {
+	font-size: 14px;
+}
+.presentation p {
+	margin-block: 2rem;
+	padding: 2rem;
+	text-align: justify;
+	background-color: #b1907f;
+	box-shadow: 8px 8px 2px #664c46;
+}
+
+/**Part of training & ancient-life */
+.school, .pro {
+	box-shadow: 8px 8px 2px #664c46;
 }
 
 .school, .pro {
@@ -81,35 +112,6 @@ main{
 }
 .formation, .ancient-life {
 	margin-bottom: 3rem;
-}
-
-.stage {
-	font-size: 14px;
-}
-h1, .formation > h2, .ancient-life > h2, .job {
-	text-align: center;
-	font-size: 2rem;
-}
-.title {
-	background-color: #664c46;
-	box-shadow: 8px 8px 2px #b1907f;
-	padding: 1rem;
-}
-.title h1, .title h2, .stage {
-	color: #fff;
-}
-
-.presentation p {
-	margin-block: 2rem;
-	padding: 2rem;
-	text-align: justify;
-	background-color: #b1907f;
-	box-shadow: 8px 8px 2px #664c46;
-}
-
-.cv {
-	max-width: 1000px;
-	margin-left: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -194,8 +196,4 @@ h1, .formation > h2, .ancient-life > h2, .job {
 		flex-direction: column;
 		justify-content: space-between;
 	}
-	/* .presentation p {
-		color: #fff;
-	} */
-
 }
