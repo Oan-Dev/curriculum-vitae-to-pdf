@@ -48,7 +48,7 @@ main{
 
 .contact h2, .skills h2, .language h2,
 .contact ul li, .contact ul li a, .skills ul li, .language ul li {
-	margin-bottom: 1rem;
+	margin-bottom: .8rem;
 }
 /** padding factorizing */
 .contact, .skills, .language, .presentation, .formation, .ancient-life, .school, .pro{
