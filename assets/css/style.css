@@ -1,3 +1,4 @@
+/** RESET */
 * {
 	margin: 0;
 	padding : 0;
@@ -12,12 +13,15 @@ a {
 	color: #000;
 }
 
+/** GENERAL */
 main{
 	padding: 5rem 1rem 1rem 1rem ;
 	display: flex;
 	justify-content: center;
 }
-/* aside */
+
+
+/** aside */
 .identity {
 	height: 150vh;
 	width: 300px;
@@ -59,6 +63,8 @@ h1, .formation > h2, .ancient-life > h2, .job {
 	text-align: center;
 	font-size: 2rem;
 }
+
+
 /** Part of resume */
 .cv {
 	max-width: 1000px;
@@ -81,7 +87,7 @@ h1, .formation > h2, .ancient-life > h2, .job {
 	margin-block: 2rem;
 	padding: 2rem;
 	text-align: justify;
-	background-color: #b1907f;
+	background-color: #e0cdbe;
 	box-shadow: 8px 8px 2px #664c46;
 }
 
